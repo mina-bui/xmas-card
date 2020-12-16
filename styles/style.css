@@ -2,13 +2,21 @@
 body {
     background-color: #80aab0;
     color: white;
-    font-family: Tahoma;
+    font-family: Garamond;
 }
 h1 {
-    font-family: Garamond;
     font-size: 5em;
     padding: 0px;
     margin: 100px 0px 50px 0px;
+}
+h2 {
+    font-size: 3em;
+    padding: 0px;
+    margin: 0px;
+}
+p {
+    font-size: 1.5em;
+    font-weight: bold;
 }
 a,
 a:visited,
@@ -29,14 +37,33 @@ a:hover {
 .signature-right {
     text-align: right;
 }
-.confirm_selection {
+.glowing-hover {
     -webkit-transition: text-shadow 1s linear;
     -moz-transition: text-shadow 1s linear;
     -ms-transition: text-shadow 1s linear;
     -o-transition: text-shadow 1s linear;
     transition: text-shadow 1s linear;
 }
-.confirm_selection:hover,
-.confirm_selection.glow {
+.glowing-hover:hover,
+.glowing-hover.glow {
     text-shadow: 0 0 10px red;
+}
+.arrow {
+    border: solid #b84451;
+    border-width: 0 7px 7px 0;
+    display: inline-block;
+    padding: 3px;
+    margin: 200px 0px 100px 0px;
+}
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.individual-message h2 {
+    padding: 30px 0px 0px 0px;
+    margin: 30px 30px;
+}
+.individual-message p {
+    text-align: left;
 }
