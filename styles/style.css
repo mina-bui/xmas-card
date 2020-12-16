@@ -57,13 +57,17 @@ footer {
     border-width: 0 7px 7px 0;
     display: inline-block;
     padding: 3px;
-    margin: 200px 0px 100px 0px;
 }
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
+    margin: 200px 0px 100px 0px;
 }
-
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin: 50px 0px 50px 0px;
+}
 .individual-message h2 {
     padding: 30px 0px 0px 0px;
     margin: 30px 30px;
