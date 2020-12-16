@@ -1,0 +1,42 @@
+/* main selectors */
+body {
+    background-color: #80aab0;
+    color: white;
+    font-family: Tahoma;
+}
+h1 {
+    font-family: Garamond;
+    font-size: 5em;
+    padding: 0px;
+    margin: 100px 0px 50px 0px;
+}
+a,
+a:visited,
+a:active {
+    color: #b84451;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: 1px dotted underline;
+}
+/* class selectors */
+.wrapper {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+.signature-right {
+    text-align: right;
+}
+.confirm_selection {
+    -webkit-transition: text-shadow 1s linear;
+    -moz-transition: text-shadow 1s linear;
+    -ms-transition: text-shadow 1s linear;
+    -o-transition: text-shadow 1s linear;
+    transition: text-shadow 1s linear;
+}
+.confirm_selection:hover,
+.confirm_selection.glow {
+    text-shadow: 0 0 10px red;
+}
