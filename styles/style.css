@@ -25,7 +25,7 @@ a:active {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: 1px dotted underline;
+    text-decoration: dotted underline;
 }
 footer {
     text-align: center;
