@@ -7,16 +7,27 @@ body {
 h1 {
     font-size: 5em;
     padding: 0px;
-    margin: 100px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
 }
 h2 {
     font-size: 3em;
     padding: 0px;
     margin: 0px;
 }
+h3 {
+    padding: 0px;
+    margin: 0px;
+}
 p {
     font-size: 1.5em;
     font-weight: bold;
+}
+img {
+    width: 400px;
+    padding: 0px 0px 0px 0px;
+    margin: 50px 0px 0px 0px;
+    border: 30px solid white;
+    box-shadow: 0px 2px 5px -1px rgba(50, 50, 93, 0.25), 0px 1px 3px -1px rgba(0, 0, 0, 0.3);
 }
 a,
 a:visited,
@@ -25,7 +36,9 @@ a:active {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: dotted underline;
+    color: white;
+    text-decoration: none;
+    transition-duration: 0.4s;
 }
 hr {
     border: 0;
@@ -66,7 +79,7 @@ footer {
 .down {
     transform: rotate(45deg);
     -webkit-transform: rotate(45deg);
-    margin: 200px 0px 100px 0px;
+    margin: 100px 0px 100px 0px;
 }
 .up {
     transform: rotate(-135deg);
@@ -79,6 +92,35 @@ footer {
 }
 .individual-message p {
     text-align: left;
+}
+.rotateimg2 {
+    -webkit-transform: rotate(2deg);
+    -moz-transform: rotate(2deg);
+    -ms-transform: rotate(2deg);
+    -o-transform: rotate(2deg);
+    transform: rotate(2deg);
+}
+.credits {
+    width: 300px;
+    padding: 50px 0px 10px 0px;
+    margin: 0 auto;
+}
+.credits ul {
+    text-align: left;
+}
+.credits-button {
+    background-color: white;
+    color: #b84451;
+    border: none;
+    font-family: Garamond;
+    padding: 4px 16px;
+    margin: none;
+    transition-duration: 0.4s;
+    box-shadow: 0px 2px 5px -1px rgba(50, 50, 93, 0.25), 0px 1px 3px -1px rgba(0, 0, 0, 0.3);
+}
+.credits-button:hover {
+    color: white;
+    background-color: #b84451;
 }
 /* mobile version */
 @media screen and (max-width: 600px) {
@@ -93,8 +135,18 @@ footer {
     h2 {
         font-size: 2.5em;
     }
+    img {
+        width: 300px;
+        border: 15px solid white;
+        margin-top: 30px;
+    }
     p {
         font-size: 1.2em;
+    }
+    hr {
+        border: 0;
+        border-bottom: 1px solid white;
+        margin: 50px 175px 50px 175px;
     }
     .down {
         margin: 40px 0px 20px 0px;
