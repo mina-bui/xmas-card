@@ -27,6 +27,11 @@ a:active {
 a:hover {
     text-decoration: dotted underline;
 }
+hr {
+    border: 0;
+    border-bottom: 1px solid white;
+    margin: 50px 250px 50px 250px;
+}
 footer {
     text-align: center;
     margin: 20px 20px;
