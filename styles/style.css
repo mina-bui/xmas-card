@@ -75,3 +75,26 @@ footer {
 .individual-message p {
     text-align: left;
 }
+/* mobile version */
+@media screen and (max-width: 600px) {
+    .wrapper {
+        width: 400px;
+    }
+    h1 {
+        font-size: 3em;
+        margin: 30px 0px 30px 0px;
+        padding: 0px;
+    }
+    h2 {
+        font-size: 2.5em;
+    }
+    p {
+        font-size: 1.2em;
+    }
+    .down {
+        margin: 40px 0px 20px 0px;
+    }
+    .up {
+        margin: 50px 0px 20px 0px;
+    }
+}
